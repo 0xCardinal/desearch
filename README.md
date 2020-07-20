@@ -12,7 +12,7 @@ Run the following command from inside the desearch directory,
 ```shell
 ./desearch.sh {url}
 ```
-<br>
+
 To run the code globally, 
 Rename the `desearch.sh` to `desearch` - `mv desearch.sh desearch`. Move the executable to `/bin` directory and then it can be run globally.
 ```shell
