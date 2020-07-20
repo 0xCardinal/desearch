@@ -4,12 +4,19 @@ A wrapper around [sci-hub.tw](https://sci-hub.tw) for downloading Research Paper
 ## Installation
 ```shell
 git clone https://github.com/krAshwin/desearch.git
-cd desearch 
-chmod +x desearch
+cd desearch
+chmod +x desearch.sh
 ```
 ## Usage
+Run the following command from inside the desearch directory,
 ```shell
-./desearch {url}
+./desearch.sh {url}
+```
+<br>
+To run the code globally, 
+Rename the `desearch.sh` to `desearch` - `mv desearch.sh desearch`. Move the executable to `/bin` directory and then it can be run globally.
+```shell
+desearch {url}
 ```
 
 ## Known url sources
