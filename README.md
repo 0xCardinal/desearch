@@ -1,5 +1,5 @@
 # desearch
-A wrapper around [sci-hub.tw](sci-hub.tw) for downloading Research Papers.
+A wrapper around [sci-hub.tw](https://sci-hub.tw) for downloading Research Papers.
 
 ## Installation
 ```shell
