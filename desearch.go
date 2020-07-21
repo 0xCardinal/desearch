@@ -72,7 +72,8 @@ func main() {
 		fmt.Print("Downloading Research Paper: ")
 
 		// Building FileName from Download Link
-		fileURL := url.Parse(downloadLink)
+		fileURL, err := url.Parse(downloadLink)
+		checkErr(err)
 		path := fileURL.Path
 		segment := strings.Split(path, "/")
 		filename := segment[len(segment)-1]
