@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Download Research Papers (because information should be free for all)
-# A wrapper around sci-hub.tw
+# A wrapper around sci-hub.tw (credit: Alexandra Elbakyan)
 # Author - Kumar Ashwin
 
 desearch(){
