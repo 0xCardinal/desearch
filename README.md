@@ -17,10 +17,18 @@ To get the usage & credit direction,
 desearch -h
 ```
 
-To run the code globally, 
+To run the code globally, <br>
 For Linux: Move the executable to `/bin` directory and then it can be run globally.
 ```shell
 desearch {url}
+```
+
+# Output
+May spit error if unable to download the file.<br>
+Otherwise, 
+```shell
+Downloading Research Paper: {filename}
+Done
 ```
 
 ## Known url sources
