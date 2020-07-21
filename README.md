@@ -20,10 +20,11 @@ desearch {url}
 ```
 
 ## Known url sources
-- IEEE
-- ACM
-- Science Direct
-- Springer
+- [IEEE](https://ieeexplore.ieee.org/Xplore/)
+- [ACM](https://dl.acm.org/)
+- [Science Direct](https://www.sciencedirect.com/)
+- [Springer](https://www.springer.com/in)
+- [Nature](https://www.nature.com)
 
 ## Author
 **Kumar Ashwin** <br>
