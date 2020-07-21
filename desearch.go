@@ -72,8 +72,7 @@ func main() {
 		fmt.Print("Downloading Research Paper: ")
 
 		// Building FileName from Download Link
-		fileURL, err := url.Parse(downloadLink)
-		checkErr(err)
+		fileURL := url.Parse(downloadLink)
 		path := fileURL.Path
 		segment := strings.Split(path, "/")
 		filename := segment[len(segment)-1]
@@ -102,6 +101,7 @@ func main() {
 
 func checkErr(err error) {
 	if err != nil {
-		panic(err)
+		color.Red("Cannot download specified paper...please check manually @ sci-hub.tw\nSorry for the inconvenience!")
+		os.Exit(1)
 	}
 }
