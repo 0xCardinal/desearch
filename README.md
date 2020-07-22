@@ -6,21 +6,23 @@ If you are a GO user,
 ```shell
 go get github.com/krAshwin/desearch
 ```
+For linux & windows users, they can use by directly downloading the [portable executables](https://github.com/krAshwin/desearch/releases). 
+
 ## Usage
-Run the following command from inside the desearch directory,
+If you are a **linux** user, download the executable from [linux/desearch](https://github.com/krAshwin/desearch/releases/download/v2.1_linux/desearch) and traverse to the directory where the downloaded file is and run with the following command,
 ```shell
-./desearch {url}
+./desearch [url]
 ```
 
-To get the usage & credit direction,
-```shell 
-desearch -h
+If you are a **windows** user, download the executable from [windows/desearch.exe](https://github.com/krAshwin/desearch/releases/download/v2.1_windows/desearch.exe) and open Command Prompt(cmd) and go to the folder where desearch.exe is and run with the following command,
+```cmd
+desearch.exe [url]
 ```
 
 To run the code globally, <br>
 For Linux: Move the executable to `/bin` directory and then it can be run globally.
 ```shell
-desearch {url}
+desearch [url]
 ```
 
 # Output
