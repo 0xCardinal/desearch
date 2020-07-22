@@ -43,3 +43,4 @@ Done
 ## Author
 **Kumar Ashwin** <br>
 **Email - krahwin00@gmail.com**
+**Blog Post - [https://dev.to/krashwin/sci-hub-tw-wrapper-desearch-47ba](https://dev.to/krashwin/sci-hub-tw-wrapper-desearch-47ba)
