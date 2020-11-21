@@ -1,5 +1,9 @@
 # desearch
-A wrapper around [sci-hub.tw](https://sci-hub.tw) for downloading Research Papers for free.
+A wrapper around [sci-hub.se](https://sci-hub.se) for downloading Research Papers for free.
+
+---
+## This tool is not usable anymore, as there is captcha on the site. Feel Free to download the papers manually from the above mentioned link.
+---
 
 ## Installation
 If you are a GO user, 
